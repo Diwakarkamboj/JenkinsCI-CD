@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-26T12:18:20 AEST" name="vendor-portal" finished-at="2024-08-26T12:18:39 AEST" duration-ms="19493">
+    <groups>
+    </groups>
+    <test started-at="2024-08-26T12:18:20 AEST" name="mike" finished-at="2024-08-26T12:18:36 AEST" duration-ms="15974">
+      <class name="com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@74f6c5d8]" started-at="2024-08-26T12:18:20 AEST" name="setDriver" finished-at="2024-08-26T12:18:27 AEST" duration-ms="7244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@13d4992d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@74f6c5d8]" started-at="2024-08-26T12:18:27 AEST" name="setPageObjects" finished-at="2024-08-26T12:18:28 AEST" depends-on-methods="com.diwakar15.selenium_docker.tests.AbstractTest.setDriver" duration-ms="1268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/mike.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@74f6c5d8]" started-at="2024-08-26T12:18:28 AEST" name="loginTest" finished-at="2024-08-26T12:18:31 AEST" duration-ms="2890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardPage()[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@74f6c5d8]" started-at="2024-08-26T12:18:31 AEST" name="dashboardPage" finished-at="2024-08-26T12:18:34 AEST" depends-on-methods="com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="2619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardPage -->
+        <test-method signature="logoutPage()[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@74f6c5d8]" started-at="2024-08-26T12:18:34 AEST" name="logoutPage" finished-at="2024-08-26T12:18:36 AEST" depends-on-methods="com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest.dashboardPage" duration-ms="1628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPage -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@74f6c5d8]" started-at="2024-08-26T12:18:36 AEST" name="quitDriver" finished-at="2024-08-26T12:18:36 AEST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- mike -->
+    <test started-at="2024-08-26T12:18:20 AEST" name="user-sam" finished-at="2024-08-26T12:18:38 AEST" duration-ms="18285">
+      <class name="com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@6c7a164b]" started-at="2024-08-26T12:18:20 AEST" name="setDriver" finished-at="2024-08-26T12:18:27 AEST" duration-ms="7246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5082d622]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@6c7a164b]" started-at="2024-08-26T12:18:27 AEST" name="setPageObjects" finished-at="2024-08-26T12:18:28 AEST" depends-on-methods="com.diwakar15.selenium_docker.tests.AbstractTest.setDriver" duration-ms="1268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/sam.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@6c7a164b]" started-at="2024-08-26T12:18:28 AEST" name="loginTest" finished-at="2024-08-26T12:18:31 AEST" duration-ms="2850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardPage()[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@6c7a164b]" started-at="2024-08-26T12:18:31 AEST" name="dashboardPage" finished-at="2024-08-26T12:18:35 AEST" depends-on-methods="com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="4163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardPage -->
+        <test-method signature="logoutPage()[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@6c7a164b]" started-at="2024-08-26T12:18:35 AEST" name="logoutPage" finished-at="2024-08-26T12:18:38 AEST" depends-on-methods="com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest.dashboardPage" duration-ms="2432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPage -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@6c7a164b]" started-at="2024-08-26T12:18:38 AEST" name="quitDriver" finished-at="2024-08-26T12:18:38 AEST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-sam -->
+    <test started-at="2024-08-26T12:18:20 AEST" name="user-john" finished-at="2024-08-26T12:18:39 AEST" duration-ms="19493">
+      <class name="com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@34b9f960]" started-at="2024-08-26T12:18:20 AEST" name="setupConfig" finished-at="2024-08-26T12:18:20 AEST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@34b9f960]" started-at="2024-08-26T12:18:20 AEST" name="setDriver" finished-at="2024-08-26T12:18:27 AEST" duration-ms="7249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18e36d14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@34b9f960]" started-at="2024-08-26T12:18:27 AEST" name="setPageObjects" finished-at="2024-08-26T12:18:28 AEST" depends-on-methods="com.diwakar15.selenium_docker.tests.AbstractTest.setDriver" duration-ms="1265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/john.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@34b9f960]" started-at="2024-08-26T12:18:28 AEST" name="loginTest" finished-at="2024-08-26T12:18:31 AEST" duration-ms="2862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardPage()[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@34b9f960]" started-at="2024-08-26T12:18:31 AEST" name="dashboardPage" finished-at="2024-08-26T12:18:37 AEST" depends-on-methods="com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="5551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardPage -->
+        <test-method signature="logoutPage()[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@34b9f960]" started-at="2024-08-26T12:18:37 AEST" name="logoutPage" finished-at="2024-08-26T12:18:39 AEST" depends-on-methods="com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest.dashboardPage" duration-ms="2285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPage -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest@34b9f960]" started-at="2024-08-26T12:18:39 AEST" name="quitDriver" finished-at="2024-08-26T12:18:39 AEST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.diwakar15.selenium_docker.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-john -->
+  </suite> <!-- vendor-portal -->
+</testng-results>
