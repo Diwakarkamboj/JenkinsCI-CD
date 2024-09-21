@@ -6,7 +6,7 @@ WORKDIR /home/selenium-docker
 
 #Add required files to run the test dot below represent home directory
 ADD target/docker-resources ./
-#ADD pom.xml pom.xml file
+#ADD pom.xml pom.xml files
 
 #Enviorment variables
 #Browser

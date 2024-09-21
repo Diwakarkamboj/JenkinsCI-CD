@@ -6,16 +6,6 @@
 # Log file
 **/*.log
 
-.metadata/
-
-.settings/
-
-test-output/
-
-.project/
-
-.classpath/
-
 # BlueJ files
 **/*.ctxt
 
@@ -56,3 +46,15 @@ test-output/
 **/mvnw
 **/mvnw.cmd
 **/node_modules/
+
+# Additional folders to ignore
+
+.metadata/
+
+.settings/
+
+test-output/
+
+.project/
+
+.classpath/
