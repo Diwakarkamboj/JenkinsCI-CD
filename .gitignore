@@ -50,11 +50,7 @@
 # Additional folders to ignore
 
 .metadata/
-
 .settings/
-
 test-output/
-
 .project/
-
 .classpath/
