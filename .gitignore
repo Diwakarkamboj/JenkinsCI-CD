@@ -6,6 +6,16 @@
 # Log file
 **/*.log
 
+.metadata/
+
+.settings/
+
+test-output/
+
+.project/
+
+.classpath/
+
 # BlueJ files
 **/*.ctxt
 
