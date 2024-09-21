@@ -52,5 +52,5 @@
 .metadata/
 .settings/
 test-output/
-.project/
-.classpath/
+.project
+.classpath

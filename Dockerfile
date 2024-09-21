@@ -8,7 +8,7 @@ WORKDIR /home/selenium-docker
 ADD target/docker-resources ./
 #ADD  the pom.xml pom.xml file
 
-#Enviorment variables
+#Enviorment variables check
 #Browser
 #HUB_HOST
 #TEST_SUITE
