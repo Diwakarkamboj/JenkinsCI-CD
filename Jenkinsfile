@@ -6,13 +6,13 @@ pipeline{
 
         stage('Build Jar'){
             steps{
-                sh 'mvn clean package -DskipTests'
+                bat 'mvn clean package -DskipTests'
             }
         }
 
         stage('Build Image'){
             steps{
-                sh 'docker build -t=diwakar15/selenium .'
+                bat 'docker build -t=diwakar15/selenium .'
             }
         }
 
@@ -23,8 +23,8 @@ pipeline{
             }
             steps{
                 // There might be a warning.
-                sh 'docker login -u ${DOCKER_HUB_USR} -p ${DOCKER_HUB_PSW}'
-                sh 'docker push diwakar15/selenium'
+                bat 'docker login -u ${DOCKER_HUB_USR} -p ${DOCKER_HUB_PSW}'
+                bat 'docker push diwakar15/selenium'
             }
         }
 
@@ -32,7 +32,7 @@ pipeline{
 
     post {
         always {
-            sh 'docker logout'
+            bat 'docker logout'
         }
     }
 
