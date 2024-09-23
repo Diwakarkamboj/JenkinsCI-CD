@@ -12,7 +12,7 @@ pipeline{
 
         stage('Build Image'){
             steps{
-                bat 'docker build -t=diwakar15/selenium .'
+                bat 'docker build -t=diwakar15/selenium:latest .'
             }
         }
 
@@ -27,6 +27,8 @@ pipeline{
                //the below step will work in linux only so ignore warning in windows
                // bat 'echo %DOCKER_HUB_PSW% | docker login -u %DOCKER_HUB_USR% --password-stdin'
                 bat 'docker push diwakar15/selenium'
+                bat "docker tag diwakar15/selenium:latest diwakar15/selenium:${env.BUILD_NUMBER}"
+                bat "docker push diwakar15/selenium:${env.BUILD_NUMBER}"
             }
         }
 
