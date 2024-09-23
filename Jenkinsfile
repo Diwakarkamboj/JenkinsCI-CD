@@ -23,7 +23,9 @@ pipeline{
             }
             steps{
                 // There might be a warning.
-                bat 'docker login -u ${DOCKER_HUB_USR} -p ${DOCKER_HUB_PSW}'
+                bat 'docker login -u %DOCKER_HUB_USR% -p %DOCKER_HUB_PSW%'
+               //the below step will work in linux only so ignore warning in windows
+               // bat 'echo %DOCKER_HUB_PSW% | docker login -u %DOCKER_HUB_USR% --password-stdin'
                 bat 'docker push diwakar15/selenium'
             }
         }
